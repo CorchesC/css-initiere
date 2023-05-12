@@ -1,0 +1,93 @@
+/* selector universal */
+
+/* *{
+
+
+    color: red;
+} */
+
+ /* tag selectorr */
+
+
+/* 
+ p{
+
+    color:blue;
+ } */
+
+
+ /*id selectors Obs  fiecare   tag poate avea un singur id*/
+
+
+
+/* 
+ #test{
+
+
+    color:green;
+ } */
+
+
+ /* class selectors */
+
+
+/* 
+ .test2{
+
+    color:blue;
+ } */
+
+/* *{
+    color: aqua;
+ }
+ h3{
+    color:blueviolet;
+ }
+ .t1 {
+    color: blue
+}
+ #ti1 {
+    color: red
+} */
+/*p,h1 {
+    color: red
+}
+section p {
+    color: blue
+}
+
+header > h3 {
+    color: green
+}
+
+li+li {
+    color: blueviolet
+} */
+
+/* input[type] {
+    color: red;
+}
+input[type = "text"] {
+    color: blue;
+}
+input[type ^="password"] {
+    color:brown;
+    border-color: bisque;
+}
+input[type $= "text"] {
+    color: green;
+} */
+
+.container p:nth-child(3) {
+    color: red;
+}
+p:nth-child(even) {
+    color: green;
+}
+p:nth-last-child(1) {
+    color: blue;
+}
+p:nth-of-type(1) {
+    color: blueviolet;
+}
+p:n
